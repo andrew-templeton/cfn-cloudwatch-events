@@ -1,0 +1,32 @@
+{
+  "name": "lambda-cron-example",
+  "version": "0.0.1",
+  "description": "Example of deployment of a Lambda Cron system using cfn-cloudwatch-events -rule and -target",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TupleAustin/lambda-cron-example.git"
+  },
+  "keywords": [
+    "lambda",
+    "cron",
+    "cloudformation",
+    "custom",
+    "resource",
+    "example"
+  ],
+  "author": "Andrew Templeton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TupleAustin/lambda-cron-example/issues"
+  },
+  "homepage": "https://github.com/TupleAustin/lambda-cron-example#readme",
+  "dependencies": {
+    "aws-sdk": "2.3.3",
+    "cfn-cloudwatch-events-rule": "0.1.0",
+    "cfn-cloudwatch-events-target": "0.1.0"
+  }
+}
